@@ -1,0 +1,113 @@
+#modal-window-container {
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-container {
+    position: fixed;
+}
+
+.close-btn-container {
+    position: fixed;
+
+}
+
+ .thumb-container {
+    position: relative;
+    color: #fff;
+}
+
+    .img-tag {
+        width: 100%;
+    }
+
+    .content {
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .content h2 {
+        margin-bottom: 15px;
+    }
+    .video-link {
+        font-size: 35px;
+    }
+    
+    .close-btn {
+        background-color: firebrick;
+        width: 24px;
+        border-radius: 12px;
+        margin-bottom: 5px;
+        text-align: center;
+        float: right;
+        border: none;
+        color: #fff;
+        margin-right: -15px;  
+    }
+
+    .close-btn:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+
+    .close-btn:after {
+        clear: both;
+    }
+
+
+@media screen and (min-width: 600px) {
+    
+    .video-link {
+        font-size: 55px;
+    }
+    
+    .close-btn {
+        margin-right: -8px;  
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+    
+    .play-btn-container {
+        position: absolute;
+        left: 40%;
+        top: 32%;
+    }
+    
+    .video-link {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (min-width: 1083px) {
+    .play-btn-container {
+        position: absolute;
+        left: 40%;
+        top: 35%;
+    }
+    .video-link {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .video-link {
+        font-size: 55px;
+    }
+}
+
+.keyboardOnly {
+    position: relative;
+    top:0;
+    left: -500px;
+}
+
+
+
+
